@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LoginTabFragment">
+    tools:context=".SignupTabFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:id="@+id/login_email"
+                android:id="@+id/signup_email"
                 android:layout_marginTop="30dp"
                 android:padding="8dp"
                 android:hint="Email"
@@ -41,7 +41,7 @@
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:id="@+id/login_password"
+                android:id="@+id/signup_password"
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
                 android:hint="Password"
@@ -50,15 +50,27 @@
                 android:drawablePadding="8dp"
                 android:background="@drawable/edittext_bkg"/>
 
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:id="@+id/signup_confirm"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:background="@drawable/edittext_bkg"/>
 
             <Button
                 android:layout_width="300dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:id="@+id/login_button"
+                android:id="@+id/signup_button"
                 android:textSize="18sp"
-                android:text="Login"
+                android:text="Signup"
                 app:cornerRadius = "30dp"/>
 
         </LinearLayout>
